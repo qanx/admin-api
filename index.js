@@ -9,7 +9,7 @@ const authRoute = require("./routes/auth.js")
 const postRoute= require("./routes/posts.js")
 dotenv.config()
 
-mongoose.connect("mongodb+srv://qanx:CmJdYaaQM4EzoWzV@cluster0.f8u5t.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+mongoose.connect("mongodb+srv://< your db link >",
   {  useNewUrlParser: true, useUnifiedTopology: true},()=>{console.log("DB connected")}
 );
 
